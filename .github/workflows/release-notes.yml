@@ -31,9 +31,9 @@ jobs:
 
         - name: Pull changes from remote
           run: |
-          git config --global user.name "l5io"
-          git config --global user.email "ci@meshery.io"
-          git pull --rebase origin master
+            git config --global user.name "l5io"
+            git config --global user.email "ci@meshery.io"
+            git pull --rebase origin master
 
         - name: Commit
           uses: stefanzweifel/git-auto-commit-action@v5
