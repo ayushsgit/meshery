@@ -44,4 +44,4 @@ jobs:
             commit_author: ${{ github.actor }} <${{ github.actor }}@users.noreply.github.com>
             commit_options: '--signoff'
             commit_message: '[Docs] Release Notes for Meshery ${{ env.RELEASE_TAG }}'
-            branch: master
+            branch: master 
